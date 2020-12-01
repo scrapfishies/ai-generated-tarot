@@ -48,7 +48,7 @@
   * [Kaggle: Tarot Deck](https://www.kaggle.com/lsind18/tarot-json)
   * [Flickr (Yoav Ben-Dov)](https://www.flickr.com/photos/48485995@N00/)
   * [Flickr (Sumada Monsarrat)](https://www.flickr.com/photos/sumadas-treasure-box/albums/with/72157650242007982)
-
+* [StyleGAN2-ADA reference](https://www.youtube.com/channel/UCaZuPdmZ380SFUMKHVsv_AA)
   
 #### Text
 * Text Sources
