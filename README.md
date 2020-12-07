@@ -2,7 +2,7 @@
 
 ## Designing a new tarot deck with StyleGAN2-ADA and GPT-2
 
-For my final project at Metis, I wanted to explore media creation with artificial intelligence through the lens of tarot. I love the playful juxtaposition of the fortune teller and the data scientist both using storytelling and the preditive power of their tools in their trades.
+For my final project at Metis, I wanted to explore media creation with artificial intelligence through the lens of tarot. I love the playful juxtaposition of the fortune teller and the data scientist: both collect and analyze data on their subjects, leverage the predictive power of their tools, and use storytelling to share insights and interpretations.
 
 Tarot cards have been around for _centuries_ and are known for their rich imagery and symbolism. Every visual element of a card is open for interpretation, from the colors to the patterns in clothing. While readings will vary by reader, there is common set of meanings for each card and there are tons of books, websites, and communitities dedicated to the practice.
 
@@ -10,7 +10,7 @@ I decided to create a new set of 22 cards, the number of cards in the Major Arca
 
 To generate annotations - the cards' interprations and additional questions to ponder - I used [HuggingFace's pre-trained GPT-2 transformer model](https://huggingface.co/transformers/model_doc/gpt2.html). I've wanted to work with text generation models for a while now and was very pleased with GPT-2's ability to generate new card meanings. I then clustered generated texts using a pre-trained word-embeddings model to calculate average document vectors and their cosine similarity scores.
 
-After matching generated images and texts, I created a Twitter bot, [@AITarotBot](https://twitter.com/AITarotBot), that will tweet randomly generated daily readings. Follow and enjoy!
+After matching generated images and texts, I created a Twitter bot, [@AITarotBot](https://twitter.com/AITarotBot), that will tweet randomly generated daily readings. Please follow and enjoy!
 
 ### Workflow & Process
 
@@ -88,13 +88,13 @@ Overall, I'm quite happy with [the new cards](https://github.com/scrapfishies/ai
 
 StyleGAN2-ADA was able to create some very close replicas of existing cards as well as generate new ones. However, I suspect that tarot cards may be too varied in terms of their visual elements to consistently generate coherent images.
 
-Below we can see StyleGAN2-ADA's attempted reproduction of the Temperance card using the projection feature:
+Below we can see StyleGAN2-ADA's attempted reproduction of the Temperance card using projection:
 
-![Projection with StyleGAN2-ADA]()
+![Projection with StyleGAN2-ADA](https://github.com/scrapfishies/ai-generated-tarot/blob/main/gifs/proj.gif?raw=true)
 
-In addition to continued training and tweaking hyper-parameters, with more time I'd like to explore take advantage of someo of StyleGAN2-ADA's features like style mixing. The latent space offers up seemingly infinite variations.
+In addition to continued training and tweaking hyper-parameters, with more time I'd like to explore take advantage of some of StyleGAN2-ADA's features like style mixing. The latent space offers up seemingly infinite variations and it's possible that the _best_ cards haven't been found yet.
 
-![Demonstrating interpolation with StyleGAN2-ADA]()
+![Demonstrating interpolation with StyleGAN2-ADA](https://github.com/scrapfishies/ai-generated-tarot/blob/main/gifs/walk-w-line161-1605-70103-80128-161-24fps.gif?raw=true)
 
 #### Suggestions for Future Work
 
