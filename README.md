@@ -96,6 +96,11 @@ In addition to continued training and tweaking hyper-parameters, with more time 
 
 ![Demonstrating interpolation with StyleGAN2-ADA](https://github.com/scrapfishies/ai-generated-tarot/blob/main/gifs/walk-w-line161-1605-70103-80128-161-24fps.gif?raw=true)
 
+#### Final Deliverables
+* New major arcana - 22 AI generated tarot cards (images and annotations)
+* Daily tarot readings twitter bot: [@AITarotBot](https://twitter.com/AITarotBot)
+* [Presentation Deck](https://github.com/scrapfishies/ai-generated-tarot/blob/main/presentation_slides.pdf)
+
 #### Suggestions for Future Work
 
 - Explore other GAN architectures
